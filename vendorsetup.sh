@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo cm_picophone_m4u-eng
+add_lunch_combo omni_picophone_m4u-userdebug
