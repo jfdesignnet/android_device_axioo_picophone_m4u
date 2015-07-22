@@ -52,12 +52,11 @@ service.adb.root=1 \
 persist.sys.usb.config=adb
 
 BOARD_EGL_CFG := device/axioo/picophone_m4u/recovery/egl.cfg
-#USE_OPENGL_RENDERER := true
+USE_OPENGL_RENDERER := true
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
 
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-#TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 DEVICE_RESOLUTION := 540x960
 TW_THEME := portrait_mdpi
 
