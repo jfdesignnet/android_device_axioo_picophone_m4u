@@ -48,8 +48,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0 \
 ro.debuggable=1 \
-service.adb.root=1 \
-persist.sys.usb.config=adb
+service.adb.root=1
 
 BOARD_EGL_CFG := device/axioo/picophone_m4u/recovery/egl.cfg
 USE_OPENGL_RENDERER := true
@@ -58,7 +57,7 @@ TARGET_SCREEN_HEIGHT := 960
 
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 DEVICE_RESOLUTION := 540x960
-TW_THEME := portrait_mdpi
+TW_THEME := portrait_hdpi
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -79,4 +78,4 @@ TW_EXTERNAL_STORAGE_PATH := "/external_sdcard"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sdcard"
 #TW_CUSTOM_THEME := device/axioo/picophone_m4u/twres-axioo
 
-
+RECOVERY_VARIANT := twrp
